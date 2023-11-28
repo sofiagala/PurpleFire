@@ -1,0 +1,127 @@
+/*    Related Products    */
+.related-products-title {
+  color: var(--primary);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 66px;
+}
+
+.related-products-carousel-item-top {
+  background-color: var(--grey);
+  padding: 27px 27px 47px 27px;
+  margin-bottom: 38px;
+  position: relative;
+}
+
+.related-products-carousel-image {
+  height: 247px;
+}
+
+.related-products-carousel-item-add-favorite {
+  position: absolute;
+  right: 35px;
+  top: 13px;
+  border: 1px solid #D7D7D7;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.related-products-carousel-tag span {
+  border-radius: 100px;
+  background: #12A05C;
+  color: var(--white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 5px 20px;
+}
+
+.related-products-carousel-tag .new {
+  background: #12A05C;
+}
+
+.related-products-carousel-tag .hot {
+  background-color: #F90;
+}
+
+.related-products-carousel-tag .sales {
+  background-color: #E73C17;
+}
+
+.related-products-carousel-tag .warranty {
+  background-color: #7F7CF6;
+}
+
+.related-products-carousel-image {
+  margin-top: 34px;
+}
+
+.related-products-carousel-add-to-cart {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.related-products-carousel-item-title {
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.related-products-carousel-item-title a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--primary);
+}
+
+.related-products-carousel-item-prices {
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+}
+
+.related-products-carousel-item-price {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.related-products-carousel-item-stating-price {
+  color: #D9D9D9;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: line-through;
+}
+
+.tns-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 68px;
+  margin-top: 58px;
+}
+
+.tns-nav button {
+  border: none;
+  background-color: var(--grey-light);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  font-size: 0;
+}
+
+.tns-nav button:hover,
+.tns-nav button.tns-nav-active {
+  background-color: var(--red);
+}

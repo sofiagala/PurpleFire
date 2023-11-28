@@ -1,0 +1,85 @@
+[role="tablist"] {
+  min-width: 100%;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 16px;
+  text-align: center;
+  position: relative;
+}
+
+[role="tab"],
+[role="tab"]:focus,
+[role="tab"]:hover {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  top: 2px;
+  background-color: transparent;
+  outline: none;
+  font-weight: bold;
+  max-width: 22%;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  padding: 15px 50px;
+  width: calc((1440px - 384px) / 3);
+}
+
+[role="tab"][aria-selected="true"] {
+
+  margin-top: 0;
+}
+
+[role="tab"][aria-selected="false"] {
+  border-bottom: 0;
+}
+
+[role="tab"] span.focus {
+  display: inline-block;
+  color: var(--black);
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+[role="tabpanel"] {
+  min-height: 10em;
+  margin-left: 192px;
+  margin-right: 192px;
+  overflow: auto;
+}
+
+[role="tabpanel"].is-hidden {
+  display: none;
+}
+
+[role="tabpanel"] p {
+  margin: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+[role="tabpanel"] p a {
+  color: var(--red);
+}
+
+.tab-indicator {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  position: relative;
+}
+
+.tab-indicator-active {
+  position: absolute;
+  height: 2px;
+  background-color: red;
+  top: 0;
+  left: 0;
+  transition: left 500ms;
+}

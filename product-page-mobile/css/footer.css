@@ -1,0 +1,43 @@
+/*    Footer Section  */
+footer {
+  padding: 39px 32px 120px 32px;
+}
+
+.footer-top {
+  display: flex;
+
+}
+
+.footer-menu li {
+  margin-bottom: 18px;
+}
+
+.footer-menu li a {
+  color: var(--white);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.footer-menu li a:hover {
+  color: var(--red);
+}
+
+
+
+
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-bottom span {
+  color: var(--white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

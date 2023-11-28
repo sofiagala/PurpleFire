@@ -1,0 +1,88 @@
+/*  Buttons */
+.button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button-icon {
+  display: flex;
+  gap: 17px;
+}
+
+.button-categories {
+  color: var(--white);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button-categories:hover {
+  text-decoration: underline;
+}
+
+.button-primary {
+  background: var(--red);
+  border: 1px solid var(--red);
+  color: var(--white);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 5px 22px;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  ;
+}
+
+.button-primary:hover {
+  background: var(--red-dark);
+  border: 1px solid var(--red-dark);
+}
+
+.button-secondary {
+  background: var(--white);
+  border: 1px solid var(--red);
+  color: var(--red);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 6px 19px;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button-secondary:hover {
+  background: #F3F3F3;
+
+}
+
+.button-add-to-cart {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-add-to-cart a {
+  color: #6f6f6f;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 42px;
+  padding: 8px 18px 8px 36px;
+  display: inline-block;
+  background: var(--white) url(../images/cart-btn.png) no-repeat;
+  background-position: 17px 7px;
+}
+
+.button-add-to-cart a:hover {
+  background-color: #F3F3F3;
+}
