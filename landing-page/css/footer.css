@@ -1,0 +1,94 @@
+/* Footer Section   */
+footer {
+  padding: 70px 150px 64px 150px;
+  background-color: var(--ochre);
+}
+
+footer h3 {
+  color: var(--brown-dark);
+  margin-bottom: 22px;
+}
+
+.footer-top {
+  align-items: flex-start;
+  gap: 64px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-logo {
+  color: var(--brown-dark);
+  letter-spacing: 2px;
+}
+
+.footer-menu {
+  gap: 48px;
+  display: flex;
+}
+
+.footer5 {
+  width: 235px;
+}
+
+footer p,
+footer nav a {
+  color: #706458;
+}
+
+footer li {
+  margin-bottom: 12px;
+}
+
+footer img,
+footer p {
+  margin-bottom: 15px;
+}
+
+/*  Footer Bottom Container   */
+.footer-bottom {
+  margin-top: 48px;
+  flex-direction: column;
+  display: flex;
+}
+
+footer .social {
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 24px;
+  display: flex;
+}
+
+footer .social-icon:hover {
+  color: var(--terracotta);
+}
+
+footer .copyright-privacy {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+}
+
+footer .copyright {
+  flex: 0 0 50%;
+}
+
+footer .privacy-menu {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 50%;
+}
+
+footer .privacy-menu li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: var(--brown-light);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Varta', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}

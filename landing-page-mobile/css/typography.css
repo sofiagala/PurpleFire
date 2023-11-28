@@ -1,0 +1,45 @@
+p,
+a {
+  color: var(--brown-light);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Varta', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+h1,
+h2 {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+h1 {
+  color: var(--white);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -0.4px;
+
+}
+
+h2 {
+  color: var(--brown);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+}
+
+h3 {
+  color: var(--terracotta);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Varta', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+}

@@ -1,0 +1,48 @@
+/*  Buttons */
+.button {
+  display: block;
+  cursor: pointer;
+  background: transparent;
+}
+
+.button-chevron {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--white);
+  color: var(--white);
+  transition: color 0.5s ease-in-out;
+}
+
+.button-chevron:hover {
+  border: 2px solid var(--brown-dark);
+  color: var(--brown-dark);
+}
+
+
+.button-more {
+  color: var(--terracotta);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+}
+
+.button-more:hover {
+  color: var(--brown-dark);
+}
+
+.button-menu {
+  cursor: pointer;
+  color: var(--white);
+  transition: color 0.5s ease-in-out;
+}
+
+.button-menu:hover {
+  color: var(--terracotta);
+}
