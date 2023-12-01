@@ -4,6 +4,8 @@ You can find the deliverables here:
 
 - Pdp responsive (NEW): https://sofiagalani.gr/purplefire/pdp-responsive/
 
+  - alternative url: https://sofiagala.github.io/
+
 - Landing page: https://sofiagalani.gr/purplefire/landing-page/
 
 - Landing page mobile: https://sofiagalani.gr/purplefire/landing-page-mobile/
