@@ -1,0 +1,19 @@
+/*      colors      */
+:root {
+  --grey-light: #F4F5F8;
+  --grey: #F1F1F1;
+  --blue-dark: #2F333A;
+  --red: #E73C17;
+  --red-dark: #C22900;
+  --primary: #191919;
+  --white: #FFFFFF;
+  --black: #000
+}
+
+.bg-blue-dark {
+  background-color: var(--blue-dark);
+}
+
+.bg-grey-light {
+  background-color: var(--grey-light);
+}

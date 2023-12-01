@@ -1,0 +1,16 @@
+/*      main Menu       */
+.main-menu {
+  position: relative;
+  top: 4px;
+}
+
+.main-menu ul {
+  display: flex;
+  gap: 24px;
+}
+
+.main-menu a {
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 1px 0px 0px #F3EEE8;
+}

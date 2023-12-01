@@ -1,0 +1,49 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #efefef;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1;
+  background-color: var(--white);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  transition: color 0.2s ease-in;
+}
+
+input {
+  transition: background-color 0.2s ease-in;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.show-in-desktop {
+  display: none;
+}

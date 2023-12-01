@@ -1,0 +1,48 @@
+/** Section 1 **/
+.show-in-desktop {
+  display: none;
+}
+
+.section-1 {
+  padding: 64px 150px 70px 150px;
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.section-1-col {
+  flex: 0 0 calc(50% - 24px);
+}
+
+.section-1-title {
+  margin-bottom: 30px;
+}
+
+.section-1-block-container {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.section-1-block {
+  flex: 0 0 calc(50% - 15px);
+}
+
+.section-1-block-title {}
+
+.section-1-block-text {}
+
+
+/** Section 2 **/
+.section-2 {
+  padding: 70px 150px 0;
+  display: flex;
+  align-items: center;
+  gap: 189px;
+  margin-bottom: 64px;
+}
+
+.sectiion-2-col {
+  flex: 0 0 calc((100% - 189px) / 2);
+}

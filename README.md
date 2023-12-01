@@ -1,6 +1,8 @@
 # PurpleFire assignment
 
-You can find the 4 deliverables here:
+You can find the deliverables here:
+
+- Pdp responsive (NEW): https://sofiagalani.gr/purplefire/pdp-responsive/
 
 - Landing page: https://sofiagalani.gr/purplefire/landing-page/
 
